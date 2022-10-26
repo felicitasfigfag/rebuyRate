@@ -22,7 +22,6 @@
 		1951C51D2905A70200B068BA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951C51C2905A70200B068BA /* NetworkManager.swift */; };
 		1951C51F2905ACF200B068BA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951C51E2905ACF200B068BA /* NetworkService.swift */; };
 		19D187E22907229A00E60E77 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D187DF2907229900E60E77 /* CardView.swift */; };
-		19D187E32907229A00E60E77 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D187E02907229900E60E77 /* ViewController2.swift */; };
 		19D187E42907229A00E60E77 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D187E12907229A00E60E77 /* OnboardingViewController.swift */; };
 		19D187F72907FEB500E60E77 /* rebuyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 19D187F62907FEB500E60E77 /* rebuyLogo.png */; };
 		19D187FD2908267D00E60E77 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D187FC2908267D00E60E77 /* Extensions.swift */; };
@@ -72,7 +71,6 @@
 		1951C51C2905A70200B068BA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1951C51E2905ACF200B068BA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		19D187DF2907229900E60E77 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		19D187E02907229900E60E77 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		19D187E12907229A00E60E77 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		19D187F62907FEB500E60E77 /* rebuyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rebuyLogo.png; sourceTree = "<group>"; };
 		19D187FC2908267D00E60E77 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 			children = (
 				19D187DF2907229900E60E77 /* CardView.swift */,
 				19D187E12907229A00E60E77 /* OnboardingViewController.swift */,
-				19D187E02907229900E60E77 /* ViewController2.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -405,7 +402,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D187E32907229A00E60E77 /* ViewController2.swift in Sources */,
 				19D187E22907229A00E60E77 /* CardView.swift in Sources */,
 				1951C51D2905A70200B068BA /* NetworkManager.swift in Sources */,
 				19348DBF2902E83200C63E6C /* ViewController.swift in Sources */,

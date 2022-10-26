@@ -27,11 +27,14 @@ class OnboardingViewController: UIPageViewController, UIPageViewControllerDataSo
                 self.getViewController(withIdentifier: PageViews.sixthPV.rawValue)]
     }()
     
-    fileprivate func getViewController(withIdentifier identifier: String) -> UIViewController
-    {return (storyboard?.instantiateViewController(withIdentifier: identifier))!}
+    fileprivate func getViewController(withIdentifier identifier: String) -> UIViewController{
+        return (storyboard?.instantiateViewController(withIdentifier: identifier))!
+        
+    }
     
-    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        guard let viewControllerIndex = orderedViewController.index(of: viewController) else { return nil }
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) ->UIViewController? {
+        
+        guard let viewControllerIndex = orderedViewController.firstIndex(of: viewController) else { return nil }
         let previousIndex = viewControllerIndex - 1
         guard previousIndex >= 0 else { return orderedViewController.last }
         guard orderedViewController.count > previousIndex else { return nil }
@@ -39,7 +42,8 @@ class OnboardingViewController: UIPageViewController, UIPageViewControllerDataSo
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        guard let viewControllerIndex = orderedViewController.index(of: viewController) else { return nil }
+        
+        guard let viewControllerIndex = orderedViewController.firstIndex(of: viewController) else { return nil }
         let nextIndex = viewControllerIndex + 1
         guard nextIndex < orderedViewController.count else { return orderedViewController.first }
         guard orderedViewController.count > nextIndex else { return nil }
