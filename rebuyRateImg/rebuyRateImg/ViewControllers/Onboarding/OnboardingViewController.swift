@@ -63,9 +63,5 @@ class OnboardingViewController: UIPageViewController, UIPageViewControllerDataSo
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
 
 }
