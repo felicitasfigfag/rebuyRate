@@ -32,8 +32,7 @@ extension UIView {
         }
         set {
             self.layer.cornerRadius = newValue
-            
-            // Don't touch the masksToBound property if a shadow is needed in addition to the cornerRadius
+
             if shadow == false {
                 self.layer.masksToBounds = true
             }
